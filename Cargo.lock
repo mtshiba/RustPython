@@ -16,9 +16,8 @@ checksum = "aae1277d39aeec15cb388266ecc24b11c80469deae6067e17a1a7aa9e5c1f234"
 
 [[package]]
 name = "ahash"
-version = "0.8.12"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75"
+version = "0.8.10"
+source = "git+https://github.com/mtshiba/ahash.git#6615dd9af208415596c0ca2160a082a7675059f6"
 dependencies = [
  "cfg-if",
  "getrandom 0.3.3",

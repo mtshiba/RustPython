@@ -163,7 +163,7 @@ ruff_python_ast = { git = "https://github.com/astral-sh/ruff.git", tag = "0.11.0
 ruff_text_size = { git = "https://github.com/astral-sh/ruff.git", tag = "0.11.0" }
 ruff_source_file = { git = "https://github.com/astral-sh/ruff.git", tag = "0.11.0" }
 
-ahash = "0.8.11"
+ahash = { git = "https://github.com/mtshiba/ahash.git" }
 ascii = "1.1"
 bitflags = "2.9.1"
 bstr = "1"
